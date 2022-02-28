@@ -8,6 +8,12 @@ public class SystemLog
      */
     private ArrayList<LogMessage> messageList;
 
+    public SystemLog(ArrayList<LogMessage> messageList)
+    {
+        this.messageList = new ArrayList<LogMessage>();
+    }
+
+
 
     /** Removes from the system log all entries whose descriptions properly contain keyword,
      * and returns a list (possibly empty) containing the removed entries.
